@@ -1,0 +1,72 @@
+* {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+}
+
+section {
+        height: 98vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1rem;
+}
+
+
+.cardDiv {
+        position: relative;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        border-radius: .5rem;
+        width: 30rem;
+        padding: 3rem 1.5rem;
+        background: #1A1C2B;
+        transition: .3s;
+}
+
+.cardDiv:hover {
+        transform: scale(1.1);
+}
+
+.containerButtons {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+}
+
+button {
+        font-weight: bold;
+        background: #26283E;
+        padding: .8rem 2.5rem;
+        border-radius: .3rem;
+        outline: none;
+        border: none;
+}
+
+button:hover {
+        transform: scale(1.1);
+}
+
+.circle {
+        position: absolute;
+        right: -2rem;
+        top: 0;
+        padding: 5rem;
+        z-index: 0;
+        opacity: .6;
+        filter: blur(5rem);
+}
+
+.closeBtn {
+        position: absolute;
+        top: .5rem;
+        right: 1rem;
+        font-weight: bolder;
+}
+
+p {
+        opacity: .6;
+}
